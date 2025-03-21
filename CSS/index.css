@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+    overflow-x: hidden;
+}
+.nav_bar_list{
+    display: none;
+}
+.nav_bar .header_video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
+.nav_bar .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.nav_bar_image{
+    width: 70px;
+    height: 70px;
+}
+.header_h1{
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    background: transparent;
+    color: rgb(135, 135, 129);
+}
+.header_images, .why_we_image{
+    display: block;
+    position: absolute;
+    top: 200%
+}
+
+header{
+    height: 900px;
+}
+.nav_bar_home, .nav_bar_about, .nav_bar_projects, .nav_bar_templates, .nav_bar_contact{
+    text-decoration: none;
+    color: #8c8c8c;
+    margin-right: 15px;
+}
+.nav_bar_pages{
+    position: absolute;
+    left: 39%;
+}
+.nav_bar_home:hover, .nav_bar_about:hover, .nav_bar_projects:hover, .nav_bar_templates:hover, .nav_bar_contact:hover{
+    color: white;
+}
+.nav_bar_btn{
+    background-color: transparent;
+    padding: 23px 30px;
+    color: white;
+    font-size: 17px;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 1px #8c8c8c solid;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+.nav_bar_btn:hover{
+    border: white solid 1px;
+}
+.dark_white_mode{
+    position: absolute;
+    right: 30%;
+    color: white;
+    z-index: 1;
+}
+.dark_mode{
+    display: none;
+    cursor: pointer;
+}
+.white_mode{
+    position: absolute;
+    right: 20%;
+    top: 5.5%;
+    font-size: 35px;
+    cursor: pointer;
+}
+.header_h1{
+    position: absolute;
+    left: 28.6%;
+    top: 33%;
+    width: 50%;
+    font-size: 50px;
+}
+.header_h4{
+    position: absolute;
+    color: #8c8c8c;
+    top: 63%;
+    width: 35%;
+    left: 32.5%;
+    font-size: 15px;
+}
+.header_input_email{
+    background-color: transparent;
+    color: white;
+    padding: 20px 15px;
+    font-size: 20px;
+    width: 33.45%;
+    border-radius: 30px;
+    position: absolute;
+    top: 75%;
+    left: 31.5%;
+}
+.header_email_btn{
+    background-color: gold;
+    filter: brightness(2);
+    padding: 24px 30px;
+    border-radius: 40px;
+    position: absolute;
+    top: 74.99%;
+    left: 58.5%
+}
+.why_we{
+    height: 800px;
+    background-color: wheat;
+    color: black;
+}
+.why_we_h1{
+    font-size: 50px;
+    position: absolute;
+    top: 140%;
+    left: 19%;
+}
+.why_we_p{
+    width: 45%;
+    font-size: 25px;
+    line-height: 1.4;
+    position: absolute;
+    top: 155%;
+    left: 5.5%;
+}
+
+.header_images {
+    position: absolute;
+    right: 10%;
+    top: 155%;
+    width: 25%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.header_images img {
+    position: absolute;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.projects_h1{
+    font-size: 60px;
+    position: absolute;
+    left: 38%;
+    top: 250%;
+}
+.project_1_image{
+    position: absolute;
+    top: 280%;
+    left: 2.5%;
+    width: 45%;
+    height: 40%;
+}
+.project_2_image{
+    position: absolute;
+    top: 280%;
+    right: 2.5%;
+    width: 45%;
+    height: 40%;
+}
+.projects_1_title_link, .projects_2_title_link, .projects_3_title_link, .projects_4_title_link, .projects_5_title_link{
+    text-decoration: none;
+    font-size: 25px;
+    color: #8c8c8c;
+}
+.projects_1_title_link:hover, .projects_2_title_link:hover, .projects_3_title_link:hover, .projects_4_title_link:hover, .projects_5_title_link:hover{
+    color: white;
+}
+
+.project_3_image{
+    position: absolute;
+    top: 342%;
+    left: 2.5%;
+    width: 45%;
+    height: 40%;
+}
+
+.project_4_image{
+    position: absolute;
+    top: 342%;
+    right: 2.5%;
+    width: 45%;
+    height: 40%;
+}
+
+.project_5_image{
+    position: absolute;
+    top: 402%;
+    left: 27%;
+    width: 45%;
+    height: 40%;
+}
+.projects_1_title_link{
+    position: absolute;
+    top: 320%;
+    left: 15%;
+}
+.projects_2_title_link{
+    position: absolute;
+    top: 320%;
+    right: 15%;
+}
+.projects_3_title_link{
+    position: absolute;
+    top: 382%;
+    left: 20%;
+}
+.projects_4_title_link{
+    position: absolute;
+    top: 382%;
+    right: 18%;
+}
+.projects_5_title_link{
+    position: absolute;
+    top: 442%;
+    left: 41%;
+}
+
+.projects_btn{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 2% 20%;
+    border: 1px solid #8c8c8c;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 460%;
+    left: 22.2%;
+}
+.projects_btn:hover{
+    border: 1px solid white;
+}
+.trusted_companies{
+    background-color: wheat;
+    color: black;
+    position: absolute;
+    top: 500%;
+    height: 1300px;
+    width: 100%;
+}
+.trusted_companies_h1{
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    font-size: 50px;
+}
+.trusted_companies_image_1, .trusted_companies_image_2, .trusted_companies_image_3, .trusted_companies_image_4, .trusted_companies_image_5, .trusted_companies_image_6, .trusted_companies_image_7{
+    width: 30%;
+    height: 30%;
+}
+.trusted_companies_image_1_white{
+    display: none;
+}
+.trusted_companies_image_1_white, .trusted_companies_image_1_dark{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 30%;
+    height: 40%;
+}
+.trusted_companies_image_2{
+    position: absolute;
+    top: 22%;
+    left: 38%;
+    width: 27%;
+    height: 32%;
+}
+.trusted_companies_image_3_white{
+    display: none;
+}
+.trusted_companies_image_3_dark, .trusted_companies_image_3_white{
+    position: absolute;
+    top: 20.5%;
+    left: 67%;
+    width: 30%;
+    height: 40%;
+}
+.trusted_companies_image_4{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+}
+.trusted_companies_image_5{
+    position: absolute;
+    top: 57.5%;
+    left: 67.5%;
+}
+
+.trusted_companies_image_6{
+    position: absolute;
+    top: 58.5%;
+    left: 36.5%;
+}
+
+.what_you_will_get{
+    position: absolute;
+    top: 670%;
+    padding: 1%;
+}
+.what_you_will_get_h1{
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.what_you_will_get_p{
+    height: 100%;
+}
+.what_you_will_get_p_1, .what_you_will_get_p_2, .what_you_will_get_p_3, .what_you_will_get_p_4, .what_you_will_get_p_5, .what_you_will_get_p_6, .what_you_will_get_p_7, .what_you_will_get_p_8, .what_you_will_get_p_9{
+    font-size: 19px;
+    line-height: 0.9;
+    /* position: absolute;
+    width: 80%;
+    top: 50%; */
+    position: relative;
+    top: 270px;
+}
+.what_you_will_get_video{
+    position: absolute;
+    left: 100%;
+    top: 75%;
+}
+
+.contact_form{
+    position: absolute;
+    top: 780%;
+    background-color: wheat;
+    color: black;
+    width: 100%;
+    height: 120%;
+}
+
+.contact_form_h1{
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+}
+
+.user_first_name, .user_last_name{
+    font-size: 20px;
+    width: 26.4%;
+    height: 5%;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+}
+
+.user_first_name{
+    position: absolute;
+    top: 23%;
+    left: 21.5%;
+}
+
+.user_email{
+    font-size: 20px;
+    width: 54%;
+    height: 6%;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 21.5%;
+    top: 30%;
+}
+
+textarea{
+    font-size: 20px;
+    width: 54%;
+    height: 35%;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    position: absolute;
+    left: 21.5%;
+    top: 37.8%;
+}
+
+
+.user_last_name{
+    position: absolute;
+    top: 23%;
+    left: 49%;
+}
+
+.contact_btn{
+    background-color: transparent;
+    color: black;
+    border: #666565 solid 1px;
+    font-size: 25px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    position: absolute;
+    top: 80%;
+    left: 44%;
+}
+
+.contact_btn:hover{
+    border: black solid 1px;
+}
+
+footer{
+    position: absolute;
+    top: 870%;
+    height: 100%;
+}
+
+.footer_image{
+    width: 200%;
+    height: 35%;
+    position: absolute;
+    top: 50%;
+}
+.footer_h1{
+    font-size: 50px;
+    position: absolute;
+    top: 57%;
+    left: 180%;
+    width: max-content;
+}
+.footer_input_email_label{
+    position: absolute;
+    top: 56%;
+    left: 750%;
+    font-size: 35px;
+    width: max-content;
+}
+.footer_input_email{
+    background-color: transparent;
+    color: white;
+    padding: 20px 15px;
+    font-size: 20px;
+    width: 340%;
+    border-radius: 30px;
+    position: absolute;
+    top: 65%;
+    left: 730%;
+}
+.footer_email_btn{
+    background-color: gold;
+    filter: brightness(2);
+    padding: 24px 30px;
+    border-radius: 40px;
+    position: relative;
+    top: 458px;
+    left: 1332px;
+}
+
+@media screen and (max-width: 376px) {
+    body, html{
+        overflow-x: hidden;
+    }
+    .footer_form{
+        display: none;
+    }
+    .nav_bar_list{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 3.5%;
+        right: 0;
+        z-index: 1000;
+    }
+    .nav_bar_list_content{
+        background-color: black;
+        padding: 15px;
+        display: none;
+    }
+    .nav_bar_pages{
+        display: none;
+    }
+    .dropbtn{
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 0%;
+        right: 10%
+    }
+    .nav_bar_list_home, .nav_bar_list_about, .nav_bar_list_projects, .nav_bar_list_templates, .nav_bar_list_contact{
+        text-decoration: none;
+        color: #8c8c8c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .nav_bar_list_home:hover, .nav_bar_list_about:hover, .nav_bar_list_projects:hover, .nav_bar_list_templates:hover, .nav_bar_list_contact:hover{
+        color: white;
+    }
+    .nav_bar_list_home{
+        margin-top: 20px;
+    }
+    .nav_bar_list_contact{
+        margin-bottom: 20px;
+    }
+    .nav_bar_btn{
+        display: none;
+    }
+    .header_h1{
+        font-size: 40px;
+        width: 90%;
+        position: absolute;
+        left: 12%;
+        top: 20%;
+    }
+    .header_h4{
+        font-size: 15px;
+        width: 90%;
+        position: absolute;
+        left: 9%;
+    }
+    .header_input_email{
+        width: 80%;
+        position: absolute;
+        left: 5%;
+        top: 84%;
+        font-size: 15px;
+    }
+    .header_email_btn{
+        font-size: 10px;
+        position: absolute;
+        top: 84%;
+        left: 62%;
+        cursor: pointer;
+        color: black;
+    }
+    header{
+        height: 100%;
+    }
+    .why_we{
+        height: 1700px;
+        background-color: wheat;
+    }
+    .why_we_p{
+        font-size: 15px;
+        width: 90%;
+    }
+    .header_images{
+        position: absolute;
+        top: 200%;
+        width: 80%;
+        height: 40%;
+        overflow: hidden;
+    }
+    .projects_h1{
+        font-size: 40px;
+        width: max-content;
+        position: absolute;
+        top: 265%;
+        left: 15%;
+    }
+    .project_1_image, .project_2_image, .project_3_image, .project_4_image, .project_5_image{
+        width: 95%;
+        height: 30%;
+    }
+    .project_1_image{
+        position: absolute;
+        top: 285%;
+    }
+    .projects_1_title_link{
+        position: absolute;
+        top: 312%;
+        left: 10%
+    }
+    .project_2_image{
+        position: absolute;
+        top: 335%;
+    }
+    .projects_2_title_link{
+        position: absolute;
+        top: 362%;
+    }
+    .project_3_image{
+        position: absolute;
+        top: 385%;
+    }
+    .projects_3_title_link{
+        position: absolute;
+        top: 412%;
+        left: 30%;
+    }
+    .project_4_image{
+        position: absolute;
+        top: 437%;
+    }
+    .projects_4_title_link{
+        position: absolute;
+        top: 465%;
+    }
+    .projects{
+        height: 2500px;
+    }
+    .project_5_image{
+        position: absolute;
+        left: 2.5%;
+        top: 490%;
+    }
+    .projects_5_title_link{
+        position: absolute;
+        top: 518%;
+        left: 15%;
+    }
+    .projects_btn{
+        width: 55%;
+        position: absolute;
+        top: 538%;
+        left: 2%;
+    }
+    .trusted_companies{
+        position: absolute;
+        top: 560%;
+        height: 800px;
+        left: 0%;
+    }
+    .trusted_companies_h1{
+        font-size: 30px;
+        width: 90%;
+        position: absolute;
+        left: 6%;
+    }
+    .trusted_companies_image_1_dark{
+        width: 55%;
+        height: 25%;
+        position: absolute;
+        top: 22%;
+        left: 0%;
+    }
+    .trusted_companies_image_2{
+        width: 47%;
+        height: 25%;
+        position: absolute;
+        top: 22%;
+        left: 50%;
+    }
+    .trusted_companies_image_3_dark{
+        width: 47%;
+        height: 25%;
+        position: absolute;
+        top: 47%;
+        left: 52%;
+    }
+    .trusted_companies_image_4{
+        width: 55%;
+        height: 25%;
+        position: absolute;
+        top: 46%;
+        left: 0%;
+    }
+    .trusted_companies_image_5{
+        width: 40%;
+        height: 20%;
+        position: absolute;
+        top: 72%;
+        left: 59%;
+    }
+    .trusted_companies_image_6{
+        width: 55%;
+        height: 25%;
+        position: absolute;
+        top: 71%;
+        left: 0%;
+    }
+    .what_you_will_get_h1{
+        position: absolute;
+        font-size: 32px;
+        top: 14%;
+        left: 5%;
+        width: 70%;
+        width: max-content;
+    }
+    .what_you_will_get_p_1, .what_you_will_get_p_2, .what_you_will_get_p_3, .what_you_will_get_p_4, .what_you_will_get_p_5, .what_you_will_get_p_6, .what_you_will_get_p_7, .what_you_will_get_p_8, .what_you_will_get_p_9{
+        font-size: 15px;
+        line-height: 1.2;
+        width: 100%;
+    }
+    .what_you_will_get_p_2{
+        position: relative;
+        top: 153px;
+    }
+    
+    .what_you_will_get_p_3{
+        position: relative;
+        top: 165px
+    }
+
+    .what_you_will_get_p_4{
+        position: relative;
+        top: 177px;
+    }
+
+    .what_you_will_get_p_5{
+        position: relative;
+        top: 189px;
+    }
+
+    .what_you_will_get_p_6{
+        position: relative;
+        top: 201px;
+    }
+
+    .what_you_will_get_p_7{
+        position: relative;
+        top: 213px;
+    }
+
+    .what_you_will_get_p_8{
+        position: relative;
+        top: 225px;
+    }
+
+    .what_you_will_get_p_9{
+        position: relative;
+        top: 226px;
+    }
+    .what_you_will_get_video{
+        position: absolute;
+        left: 1%;
+        top: 110%;
+        width: 90vw;
+        height: 90vh;
+    }
+    .contact_form{
+        position: absolute;
+        top: 820%;
+        left: 0%;
+    }
+    .contact_form_h1{
+        width: max-content;
+        position: absolute;
+        left: 10%;
+    }
+    .user_first_name{
+        width: 85%;
+        position: absolute;
+        left: 5%;
+        top: 24.5%;
+    }
+    .user_last_name{
+        width: 85%;
+        position: absolute;
+        left: 5%;
+        top: 30.5%;
+    }
+    .user_email{
+        width: 85%;
+        position: absolute;
+        left: 5%;
+        top: 36.5%;
+    }
+    textarea{
+        width: 85%;
+        position: absolute;
+        left: 5%;
+        top: 44%;
+        border: 1px #666565 solid; 
+    }
+    .contact_btn{
+        position: absolute;
+        left: 27%;
+        top: 84%;
+    }
+    /* .footer_image{
+        position: absolute;
+        top: 74%;
+        width: 45vw;
+        height: 20%;
+    } */
+    .footer_h1{
+        font-size: 50px;
+        position: absolute;
+        top: 76%;
+        left: 10%;
+    }
+}
+
+

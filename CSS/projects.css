@@ -1,0 +1,234 @@
+body{
+    background-color: #0F0F0F;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1700px;
+}
+
+.projects_page_cross{
+    text-decoration: none;
+    font-size: 40px;
+    color: #B3B3B3;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.projects_page_cross:hover{
+    color: white;
+    transform: scale(2);
+}
+
+.projects_page_h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_1_image, .project_2_image, .project_3_image, .project_4_image, .project_5_image{
+    width: 45%;
+    height: 300px;
+}
+
+.project_1_image{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+}
+
+.projects_1_title_link{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 78%;
+    left: 14%;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+.project_1_title{
+    color: #878787;
+    width: fit-content;
+}
+
+.project_1_title:hover{
+    color: white;
+}
+
+
+.project_2_image{
+    position: absolute;
+    left: 51%;
+    top: 40%;
+}
+
+.projects_2_title_link{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 78%;
+    left: 65%;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+.project_2_title{
+    color: #878787;
+    width: fit-content;
+}
+
+.project_2_title:hover{
+    color: white;
+}
+
+
+.project_3_image{
+    position: absolute;
+    top: 100%;
+    left: 3%;
+}
+
+.projects_3_title_link{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 138%;
+    left: 20%;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+.project_3_title{
+    color: #878787;
+    width: fit-content;
+}
+
+.project_3_title:hover{
+    color: white;
+}
+
+
+.project_4_image{
+    position: absolute;
+    top: 100%;
+    left: 51%;
+}
+
+.projects_4_title_link{
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    top: 138%;
+    left: 66%;
+    display: inline-block;
+    max-width: fit-content;
+}
+
+.project_4_title{
+    color: #878787;
+    width: fit-content;
+}
+
+.project_4_title:hover{
+    color: white;
+}
+
+
+.project_5_image{
+    position: absolute;
+    top: 159%;
+    left: 27%;
+}
+
+.projects_5_title_link{
+    text-decoration: none;
+    font-size: 30px;
+    max-width: fit-content; 
+    position: absolute;
+    left: 40%;
+    top: 197%;
+}
+
+.project_5_title{
+    color: #878787;
+    width: fit-content;
+}
+
+.project_5_title:hover{
+    color: white;
+}
+
+@media screen and (max-width: 376px) {
+    .projects_page_cross{
+        font-size: 30px;
+    }
+    .projects_page_h1{
+        font-size: 40px;
+        position: absolute;
+        top: 14%;
+        left: 15%;
+    }
+    .project_1_image, .project_2_image, .project_3_image, .project_4_image, .project_5_image{
+        width: 95%;
+        height: 30%;
+    }
+    .project_1_image{
+        position: absolute;
+        top: 35%;
+        left: 2.5%
+    }
+    .projects_1_title_link{
+        font-size: 150%;
+        position: absolute;
+        top: 63%;
+        left: 10%
+    }
+    .project_2_image{
+        position: absolute;
+        top: 83%;
+        left: 2.5%
+    }
+    .projects_2_title_link{
+        font-size: 150%;
+        position: absolute;
+        top: 111%;
+        left: 15%;
+    }
+    .project_3_image{
+        position: absolute;
+        top: 131%;
+        left: 2.5%;
+    }
+    .projects_3_title_link{
+        font-size: 150%;
+        position: absolute;
+        top: 159%;
+        left: 30%;
+    }
+    .project_4_image{
+        position: absolute;
+        top: 179%;
+        left: 2.5%;
+    }
+    .projects_4_title_link{
+        font-size: 150%;
+        position: absolute;
+        top: 207%;
+        left: 20%;
+    }
+    .projects{
+        height: 2500px;
+    }
+    .project_5_image{
+        position: absolute;
+        left: 2.5%;
+        top: 227%;
+    }
+    .projects_5_title_link{
+        font-size: 150%;
+        position: absolute;
+        top: 255%;
+        left: 15%;
+    }
+}
